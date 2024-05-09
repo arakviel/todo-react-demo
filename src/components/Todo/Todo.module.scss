@@ -1,0 +1,17 @@
+.item {
+  padding: 0.5rem 1rem;
+  border: 1px solid #333;
+}
+
+.status[data-status='new'] {
+  color: blue;
+}
+
+.status[data-status='onProgress'] {
+  color: violet;
+}
+
+.status[data-status='completed'] {
+  color: green;
+}
+
